@@ -12,6 +12,9 @@ use yii\helpers\ArrayHelper;
  */
 class MenuManager
 {
+    /*
+    * Generate main menu
+    */
     public function mainMenu()
     {
         $items = [

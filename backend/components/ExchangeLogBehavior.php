@@ -10,7 +10,10 @@ use yii\db\ActiveRecord;
 class ExchangeLogBehavior extends Behavior
 {
     const CATEGORY_NAME = 'exchange';
-  
+
+    /*
+     * {@inheritdoc}
+     */
     public function init()
     {
         parent::init();
