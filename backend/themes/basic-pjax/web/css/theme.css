@@ -1,0 +1,31 @@
+#edit-advanced {
+    background-color: #f7f7f7;
+    border: 1px solid #bfbfbf;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-top: 15px;
+}
+
+#edit-advanced .panel-group {
+    margin-bottom: 0;
+}
+
+#edit-advanced .panel + .panel {
+    margin-top: 0;
+}
+
+#edit-advanced .panel-group .panel {
+      border-bottom: 0;
+      border-left: 0;
+      border-right: 0;
+}
+
+a > .fa, a > .glyphicon, a > .ion, .control-label > .fa, .control-label > .glyphicon, .control-label > .ion {
+    margin-right: 5px;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    margin-top: 0;
+}
